@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 const sliderInfo = {
 	sub: "birds",
 	title: "For the Birds",
-	desc: "지금부터 당신에게 들려드릴 조금은 특별한 <br /> 새들에 대한 이야기 입니다.",
+	desc: "지금부터 당신에게 들려드릴 조금은 특별한 새들에 대한 이야기 입니다.",
 	link: "/",
 	more: "자세히 보기",
 	site: "사이트 보기",
@@ -38,7 +38,7 @@ function Slider(props) {
 						<SwiperSlide>
 							<div className="desc">
 								<span>{sliderInfo.sub}</span>
-								<h3>F{sliderInfo.title}</h3>
+								<h3>{sliderInfo.title}</h3>
 								<p>{sliderInfo.desc}</p>
 								<div className="btn">
 									<a href={sliderInfo.link}>{sliderInfo.more}</a>
@@ -54,7 +54,7 @@ function Slider(props) {
 						<SwiperSlide>
 							<div className="desc">
 								<span>{sliderInfo.sub}</span>
-								<h3>F{sliderInfo.title}</h3>
+								<h3>{sliderInfo.title}</h3>
 								<p>{sliderInfo.desc}</p>
 								<div className="btn">
 									<a href={sliderInfo.link}>{sliderInfo.more}</a>
@@ -70,7 +70,7 @@ function Slider(props) {
 						<SwiperSlide>
 							<div className="desc">
 								<span>{sliderInfo.sub}</span>
-								<h3>F{sliderInfo.title}</h3>
+								<h3>{sliderInfo.title}</h3>
 								<p>{sliderInfo.desc}</p>
 								<div className="btn">
 									<a href={sliderInfo.link}>{sliderInfo.more}</a>
